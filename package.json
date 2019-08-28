@@ -1,6 +1,6 @@
 {
-  "name": "treantjs",
-  "version": "1.0.0",
+  "name": "rs-treantjs",
+  "version": "1.1.0",
   "description": "JavaScipt library for visualization of tree diagrams",
   "main": "Treant.js",
   "directories": {
@@ -14,8 +14,8 @@
     "url": "git+https://github.com/rootstrap/treant-js.git"
   },
   "dependencies": {
-    "raphael": "2.3.0",
-    "jquery": "3.4.1"
+    "jquery": "3.4.1",
+    "raphael": "2.3.0"
   },
   "keywords": [
     "treant",
