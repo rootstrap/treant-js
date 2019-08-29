@@ -2172,3 +2172,5 @@ const $ = require('jquery');
     window.Treant = Treant;
 
 })();
+
+export default Treant;
