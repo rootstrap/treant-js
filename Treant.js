@@ -17,6 +17,8 @@
  * Dave Goodchild, https://github.com/dlgoodchild
  */
 
+import { removeScriptTagsAndEvents } from './helpers';
+
 const Raphael = require('raphael');
 const $ = require('jquery');
 
@@ -1904,7 +1906,8 @@ const $ = require('jquery');
         }
         else {
             // insert your custom HTML into a node
-            node.innerHTML = this.nodeInnerHTML;
+            console.log(this.nodeInnerHTML);
+            node.innerHTML = removeScriptTagsAndEvents(this.nodeInnerHTML);
         }
         return node;
     };
