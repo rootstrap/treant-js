@@ -1906,7 +1906,6 @@ const $ = require('jquery');
         }
         else {
             // insert your custom HTML into a node
-            console.log(this.nodeInnerHTML);
             node.innerHTML = removeScriptTagsAndEvents(this.nodeInnerHTML);
         }
         return node;
